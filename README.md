@@ -1,11 +1,3 @@
-Give the whole readme of the website for the project in the theme of Indian Railways
-13:33
-Here is the complete Indian Railways-themed 
-
-README.md
- for your repository:
-
-markdown
 # 🚂 RAILGUARD AI
 ### *Calm Decisions When Every Minute Matters*
 **The Intelligent Family Journey Rescue Engine for Indian Railways**

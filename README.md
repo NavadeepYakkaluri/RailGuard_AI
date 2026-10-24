@@ -50,10 +50,11 @@ graph TD
     G --> I[📲 Offline Emergency SMS & GRP Dispatch]
 
 
-1. 🔍 Real-Time NTES Disruption & Buffer Engine
+1. Real-Time NTES Disruption & Buffer Engine
 Live tracking of scheduled vs. expected arrival times at interchange junctions.
 Dynamic Buffer Gauge: Computes safety margins between incoming train and onward connection.
 Automated alert triggers the moment connection probability drops below safe threshold (≤ 25 mins).
+
 2. 🧠 Intelligent Multi-Modal Route Ranking
 Evaluates alternate train itineraries, special Rajdhani/Vande Bharat routes, and highway express buses.
 Multi-dimensional ranking based on:
@@ -61,14 +62,18 @@ Family Safety Score (lighting, platform change distance, midnight wait times)
 Total Journey Duration
 Seat Availability & Confirmation Probability
 Elderly / Wheelchair Accessibility
+
 3. 💸 Financial Ledger & Automated TDR Claim Engine
 Real-time calculation of ticket cancellation refunds under Indian Railway Passenger Tariff Rules.
 Automatic qualification check: When a train is delayed >3 hours, 100% full refund is eligible without cancellation deduction.
+
 Generates exact step-by-step TDR filing instructions with countdown timers to avoid deadline forfeiture.
+
 4. 📶 Zero-Data Offline Mode & Emergency SMS
 If data connection drops, RailGuard AI switches instantly to Zero-Bandwidth Mode.
 Generates pre-formatted offline SMS payloads for Indian Railways SMS service (139) and emergency contacts.
 Quick-dial integration for RPF (182 / 139), GRP helpline, and station medical booths.
+
 5. 🎨 Cinematic Animated Railway Station Experience
 Photorealistic Nagpur Junction Atmosphere: Handcrafted, high-fidelity SVG canvas featuring:
 Moving billowy cumulus clouds drifting across dawn/dusk skies.

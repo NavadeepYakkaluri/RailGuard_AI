@@ -48,7 +48,7 @@ graph TD
     G --> H2[Plan B: Multi-Modal AC Express Bus]
     G --> H3[Plan C: Over-Night Retiring Room Rest]
     G --> I[📲 Offline Emergency SMS & GRP Dispatch]
-```
+
 
 1. 🔍 Real-Time NTES Disruption & Buffer Engine
 Live tracking of scheduled vs. expected arrival times at interchange junctions.
@@ -79,8 +79,7 @@ Station View Mode: One-click toggle in the header to hide cards and inspect the 
 
 
 
-##🛠️ Tech Stack & Engineering Excellence
-
+🛠️ Tech Stack & Engineering Excellence
 Domain	Technologies & Libraries
 Frontend Framework	React 19 with TypeScript (Strict Type Safety)
 Build & Tooling	Vite 8 (Lightning-fast HMR, sub-100ms builds)
@@ -88,3 +87,65 @@ Visual Art & Design	Pure Scalable Vector Graphics (SVG), Vanilla CSS Keyframe An
 UI Design System	Tailored Indian Railways Indigo, Saffron (#F97316), Emerald (#10B981) & Light/Dark Theme Tokens
 Icons & Typography	Lucide React, Google Fonts (Outfit, Inter, Manrope)
 Accessibility	WCAG AAA Compliant, High-Contrast Mode, Screen-Reader Live Regions
+📂 Repository Architecture
+text
+IRCTC/
+├── public/                     # Static assets & web manifest
+├── src/
+│   ├── components/
+│   │   ├── background/         # MidnightRailwayBg.tsx (Cinematic SVG station & dual train loops)
+│   │   ├── loading/            # WebsiteLoadingScreen.tsx (3D perspective WAP-7 opening sequence)
+│   │   ├── layout/             # Header.tsx (Station View, Intro Replay, Theme switcher)
+│   │   ├── cards/              # DelayAlertCard, RouteComparisonCard, TdrRefundCard
+│   │   ├── simulator/          # DisruptionSimulator.tsx (Interactive judge scrubber)
+│   │   └── accessibility/      # ScreenReaderView.tsx, OfflineBanner.tsx
+│   ├── engine/                 # Core domain logic
+│   │   ├── feasibilityEngine.ts # Journey route scoring & timing feasibility
+│   │   ├── safetyEngine.ts     # Family, female passenger & senior safety metrics
+│   │   ├── rankingEngine.ts    # Pareto-optimal sorting across time, cost & safety
+│   │   └── financialLedger.ts  # IRCTC TDR refund calculation matrix
+│   ├── types/                  # TypeScript interfaces (Disruption, Train, Route, Ledger)
+│   ├── App.tsx                 # Master state & route coordinator
+│   ├── index.css               # Kinetic train keyframes & custom glassmorphism
+│   └── main.tsx                # App entrypoint
+├── package.json
+└── vite.config.ts
+⚡ Quick Start Guide
+Prerequisites
+Node.js (v18.0.0 or higher recommended)
+npm or pnpm / yarn
+Installation
+bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/railguard-ai.git
+# 2. Navigate to project root
+cd railguard-ai
+# 3. Install dependencies
+npm install
+# 4. Start local development server
+npm run dev
+Visit http://localhost:5173/ in your browser.
+
+🎮 How to Test / Hackathon Demo Flow
+Watch the Cinematic 3D Loading Sequence:
+Witness the WAP-7 locomotive approach with glowing volumetric headlights and NTES telemetry status sync.
+Click "Skip Intro" or "Board Train" to enter.
+Explore Nagpur Junction Background:
+Click the Station View (Eye Icon) in the header to admire the moving clouds, tracks, station board, and realistic train passing animations.
+Simulate a Delay with the Disruption Simulator:
+Switch the delay from +15m (Minor) to +90m (Severe).
+Watch the platform signal turn red, the buffer gauge drop to 0m Missed Connection, and the rescue plans dynamically re-order.
+Inspect Route Comparisons & TDR Claims:
+Review Plan A (Vande Bharat), Plan B (Bus), and Plan C.
+Check the Financial Ledger to see exact refund amounts and one-click filing guidance.
+Test Zero-Data Emergency Mode:
+Toggle the Offline Mode to see how RailGuard AI generates SMS codes for 139 without any active internet connection.
+🏆 IMPACTX 2026 Hackathon Submission
+Track: AI for Public Good & Resilient Infrastructure
+Focus: Indian Railways Passenger Journey Continuity
+Status: Working Prototype with Zero Mock API Failures
+Made with ❤️ for the Indian Railways Passenger Community
+RAILGUARD AI — Because your family's safety & peace of mind should never be delayed.
+
+
+```

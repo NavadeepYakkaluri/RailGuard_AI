@@ -80,6 +80,7 @@ Station View Mode: One-click toggle in the header to hide cards and inspect the 
 
 
 🛠️ Tech Stack & Engineering Excellence
+
 Domain	Technologies & Libraries
 Frontend Framework	React 19 with TypeScript (Strict Type Safety)
 Build & Tooling	Vite 8 (Lightning-fast HMR, sub-100ms builds)
@@ -87,6 +88,9 @@ Visual Art & Design	Pure Scalable Vector Graphics (SVG), Vanilla CSS Keyframe An
 UI Design System	Tailored Indian Railways Indigo, Saffron (#F97316), Emerald (#10B981) & Light/Dark Theme Tokens
 Icons & Typography	Lucide React, Google Fonts (Outfit, Inter, Manrope)
 Accessibility	WCAG AAA Compliant, High-Contrast Mode, Screen-Reader Live Regions
+
+
+
 📂 Repository Architecture
 text
 IRCTC/
@@ -110,21 +114,30 @@ IRCTC/
 │   └── main.tsx                # App entrypoint
 ├── package.json
 └── vite.config.ts
+
+
 ⚡ Quick Start Guide
 Prerequisites
 Node.js (v18.0.0 or higher recommended)
 npm or pnpm / yarn
+
+
 Installation
-bash
+
 # 1. Clone the repository
 git clone https://github.com/<your-username>/railguard-ai.git
+
 # 2. Navigate to project root
 cd railguard-ai
+
 # 3. Install dependencies
 npm install
+
 # 4. Start local development server
 npm run dev
+
 Visit http://localhost:5173/ in your browser.
+
 
 🎮 How to Test / Hackathon Demo Flow
 Watch the Cinematic 3D Loading Sequence:
@@ -140,6 +153,9 @@ Review Plan A (Vande Bharat), Plan B (Bus), and Plan C.
 Check the Financial Ledger to see exact refund amounts and one-click filing guidance.
 Test Zero-Data Emergency Mode:
 Toggle the Offline Mode to see how RailGuard AI generates SMS codes for 139 without any active internet connection.
+
+
+
 🏆 IMPACTX 2026 Hackathon Submission
 Track: AI for Public Good & Resilient Infrastructure
 Focus: Indian Railways Passenger Journey Continuity

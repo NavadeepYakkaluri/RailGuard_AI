@@ -137,6 +137,8 @@ npm install
 npm run dev
 
 Visit http://localhost:5173/ in your browser.
+or
+Visit https://railguard-ai-navy.vercel.app
 
 
 🎮 How to Test / Hackathon Demo Flow

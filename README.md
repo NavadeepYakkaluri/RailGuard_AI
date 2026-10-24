@@ -77,3 +77,14 @@ True 3D Optical Parallax: Foreground Vande Bharat Express and background WAP-7 K
 Interactive Disruption Simulator: Hackathon judges can slide the delay dial from +0m to +180m to watch the AI recalculate alternative routes in real time!
 Station View Mode: One-click toggle in the header to hide cards and inspect the living railway environment.
 
+
+
+##🛠️ Tech Stack & Engineering Excellence
+
+Domain	Technologies & Libraries
+Frontend Framework	React 19 with TypeScript (Strict Type Safety)
+Build & Tooling	Vite 8 (Lightning-fast HMR, sub-100ms builds)
+Visual Art & Design	Pure Scalable Vector Graphics (SVG), Vanilla CSS Keyframe Animations
+UI Design System	Tailored Indian Railways Indigo, Saffron (#F97316), Emerald (#10B981) & Light/Dark Theme Tokens
+Icons & Typography	Lucide React, Google Fonts (Outfit, Inter, Manrope)
+Accessibility	WCAG AAA Compliant, High-Contrast Mode, Screen-Reader Live Regions

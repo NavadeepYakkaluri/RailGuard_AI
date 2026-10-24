@@ -83,8 +83,6 @@ Interactive Disruption Simulator: Hackathon judges can slide the delay dial from
 Station View Mode: One-click toggle in the header to hide cards and inspect the living railway environment.
 
 
-<img width="1215" height="631" alt="image" src="https://github.com/user-attachments/assets/809ae2b1-03a9-4a18-bb76-f65f20951f49" />
-
 
 🛠️ Tech Stack & Engineering Excellence
 

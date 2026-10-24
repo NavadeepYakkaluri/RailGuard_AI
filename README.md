@@ -48,3 +48,32 @@ graph TD
     G --> H2[Plan B: Multi-Modal AC Express Bus]
     G --> H3[Plan C: Over-Night Retiring Room Rest]
     G --> I[📲 Offline Emergency SMS & GRP Dispatch]
+```
+
+1. 🔍 Real-Time NTES Disruption & Buffer Engine
+Live tracking of scheduled vs. expected arrival times at interchange junctions.
+Dynamic Buffer Gauge: Computes safety margins between incoming train and onward connection.
+Automated alert triggers the moment connection probability drops below safe threshold (≤ 25 mins).
+2. 🧠 Intelligent Multi-Modal Route Ranking
+Evaluates alternate train itineraries, special Rajdhani/Vande Bharat routes, and highway express buses.
+Multi-dimensional ranking based on:
+Family Safety Score (lighting, platform change distance, midnight wait times)
+Total Journey Duration
+Seat Availability & Confirmation Probability
+Elderly / Wheelchair Accessibility
+3. 💸 Financial Ledger & Automated TDR Claim Engine
+Real-time calculation of ticket cancellation refunds under Indian Railway Passenger Tariff Rules.
+Automatic qualification check: When a train is delayed >3 hours, 100% full refund is eligible without cancellation deduction.
+Generates exact step-by-step TDR filing instructions with countdown timers to avoid deadline forfeiture.
+4. 📶 Zero-Data Offline Mode & Emergency SMS
+If data connection drops, RailGuard AI switches instantly to Zero-Bandwidth Mode.
+Generates pre-formatted offline SMS payloads for Indian Railways SMS service (139) and emergency contacts.
+Quick-dial integration for RPF (182 / 139), GRP helpline, and station medical booths.
+5. 🎨 Cinematic Animated Railway Station Experience
+Photorealistic Nagpur Junction Atmosphere: Handcrafted, high-fidelity SVG canvas featuring:
+Moving billowy cumulus clouds drifting across dawn/dusk skies.
+Ticking station master clock and glowing signals that switch from Amber to Red on delay.
+True 3D Optical Parallax: Foreground Vande Bharat Express and background WAP-7 Kerala Express pass each other with physical optical occlusion and ambient depth shadows.
+Interactive Disruption Simulator: Hackathon judges can slide the delay dial from +0m to +180m to watch the AI recalculate alternative routes in real time!
+Station View Mode: One-click toggle in the header to hide cards and inspect the living railway environment.
+
